@@ -4,27 +4,34 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>your car isnt cool</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <div>
-            <h1>Your Car Isn't Cool.</h1>
-        </div>
-        <div>
-            <img src="/lame1.jpg">
-            <img src="/lame2.jpg">
-        </div>
-        <p>Think someones car belongs here? You're probably right.</p>
-        <!--[if lt IE 7]>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>your car isnt cool</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        @media only screen and (max-width: 767px) {
+            img {
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Your Car Isn't Cool.</h1>
+    </div>
+    <div style="display: flex;max-width: 1110px;justify-content: center;flex-flow: row wrap;margin: auto;">
+        <img style="padding: 10px;width: 45%;" src="/lame1.jpg">
+        <img style="padding: 10px;width: 45%;" src="/lame2.jpg">
+    </div>
+    <p style="text-align: center;">Think someones car belongs here? You're probably right.</p>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+
+    <script src="" async defer></script>
+</body>
 </html>
